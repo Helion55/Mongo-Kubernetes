@@ -1,13 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mongodep-service
+  name: mongodep
 spec:
   selector:
     app: mongodep
   ports:
-    - protocol: TCP
-      port: 27017
+    - port: 27017
       targetPort: 27017
 
 

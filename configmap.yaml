@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata: 
  name: mongodep-configmap
 data:
- databse_url: mongodep-service
+ databse_url: mongodep
